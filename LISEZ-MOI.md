@@ -23,14 +23,14 @@
    Ce qui manque apparaît grisé sur le site. Vous pouvez donc ajouter les fichiers au fur et à mesure.
 3. Ouvrez `morceaux.js`, copiez un bloc `{ ... }`, collez-le à la suite (virgule entre deux blocs) et remplissez titre, notes du chef et lien YouTube.
 
-## Ajouter le logo
-
-Déposez un fichier `logo.png` à côté de `index.html`.
 
 ## Tester sur son ordinateur
 
 Ouvrez simplement `index.html` dans le navigateur.
 
 ## Mise en ligne
+Le logiciel pour la mise en ligne est Cloudfare Pages. Normalement il n'y a plus besoin d'y toucher, le site est directement connecté à GitHub
 
-Voir les explications données dans la conversation (GitHub + Cloudflare Pages).
+## Mise à jour
+Ajouter sur le GitHub les fichiers à jour
+Une modification dans GitHub se fera automatiquement sur CloudFare et donc sur la page du site web (attendre 2 minutes et rafraichir la page du site au besoin)
