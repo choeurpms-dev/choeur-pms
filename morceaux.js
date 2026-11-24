@@ -31,6 +31,17 @@ const MORCEAUX = [
     dossier: "chant-des-partisans",
     titre: "Chant des partisans",
     compositeur: "Joseph Kessel, Maurice Druon",
+    notes: ""/*To complete \nTo complete*/,
+    youtube: "https://www.youtube.com/watch?v=xGZi9TX0Bnw"
+  }
+];
+
+
+/*const MORCEAUX = [
+  {
+    dossier: "chant-des-partisans",
+    titre: "Chant des partisans",
+    compositeur: "Joseph Kessel, Maurice Druon",
     notes: "TO complete \nTo complete",
     youtube: "https://www.youtube.com/watch?v=xGZi9TX0Bnw"
   },
@@ -42,3 +53,4 @@ const MORCEAUX = [
     youtube: ""
   }
 ];
+*/
