@@ -43,7 +43,9 @@
 
     var audio = el("audio");
     audio.controls = true;
-    audio.preload = "none";
+    // "metadata" : la durée est connue dès l'affichage, ce qui permet de
+    // cliquer sur la barre de progression avant même de lancer la lecture
+    audio.preload = "metadata";
     audio.addEventListener("play", function () { arreterLesAutres(audio); });
     var zoneAudio = el("div", "voix-audio");
     zoneAudio.appendChild(audio);
