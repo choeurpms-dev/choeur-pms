@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chœur PMS – Partitions et répétitions</title>
+  <meta name="description" content="Partitions et enregistrements pour apprendre les voix du chœur de la Préparation Militaire Supérieure.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="entete-contenu">
+      <img id="logo" class="logo" src="logo.png" alt="Logo du chœur PMS" onerror="this.style.display='none'">
+      <div>
+        <p class="sur-titre">Préparation Militaire Supérieure</p>
+        <h1>Chœur PMS</h1>
+        <p class="sous-titre">Partitions et enregistrements pour travailler chaque voix</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sommaire" id="sommaire" aria-label="Liste des morceaux" hidden>
+    <span>Morceaux :</span>
+    <ul id="sommaire-liste"></ul>
+  </nav>
+
+  <main id="morceaux" class="morceaux"></main>
+
+  <footer class="pied">
+    <p>Chœur PMS · <a href="https://www.choeur-pms.fr">www.choeur-pms.fr</a></p>
+  </footer>
+
+  <script src="morceaux.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
