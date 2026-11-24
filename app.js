@@ -3,10 +3,10 @@
 
   var VOIX = [
     { id: "soprano", nom: "Soprano" },
-    { id: "alto",    nom: "Alto" },
-    { id: "tenor",   nom: "Ténor" },
-    { id: "basse",   nom: "Basse" },
-    { id: "tous",    nom: "Tous pupitres", special: true }
+    { id: "alto", nom: "Alto" },
+    { id: "tenor", nom: "Ténor" },
+    { id: "basse", nom: "Basse" },
+    { id: "tous", nom: "Tous pupitres", special: true }
   ];
 
   var enLigne = /^https?:$/.test(location.protocol);
@@ -101,7 +101,7 @@
     c.appendChild(liste);
 
     if (m.youtube) {
-      var yt = el("a", "bouton bouton-youtube", "Voir sur YouTube");
+      var yt = el("a", "bouton bouton-youtube", "Ecouter sur YouTube");
       yt.href = m.youtube;
       yt.target = "_blank";
       yt.rel = "noopener";
